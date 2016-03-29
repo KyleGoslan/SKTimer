@@ -22,7 +22,7 @@ pod "SKTimer"
 
 ## Author
 
-KyleGoslan, kylegoslan@me.com
+KyleGoslan
 
 ## License
 
