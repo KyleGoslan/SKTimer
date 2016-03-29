@@ -18,7 +18,6 @@ class GameScene: SKScene {
         
     }
     
-    
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         timer.start(currentTime)
     }
@@ -32,5 +31,6 @@ class GameScene: SKScene {
                 print("timeup")
             })
         }
+        
     }
 }
