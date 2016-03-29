@@ -12,7 +12,7 @@
 		150764F3F54A4C7CA86A9126D22A3A51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		1D4FFAB17D5DDC0B7E7515A2D22F82C5 /* Pods-SKTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE52D674A151E355ADA2B7B134DF5786 /* Pods-SKTimer_Example-dummy.m */; };
 		3C2BE50BE5BD780365EAA87DC395D3BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		46B99B74AC8893A6D78423088A673C3D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D733A610D0E698EE446AB228CF96F7C /* ReplaceMe.swift */; };
+		46B99B74AC8893A6D78423088A673C3D /* SKTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D733A610D0E698EE446AB228CF96F7C /* SKTimer.swift */; };
 		91212F95963396C7BAD8261B548F1698 /* SKTimer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 61B41E6282EDB784898118FF42B0AC1D /* SKTimer.bundle */; };
 		BD791E4BA3F0DF7CC403E296E88EA3EA /* SKTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C60B56DE1EED751611B7678D93D328 /* SKTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E51ADFF4736928F9A9BC8395A42901B4 /* SKTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 152FF631A59FF03823BB78819D976554 /* SKTimer-dummy.m */; };
@@ -48,7 +48,7 @@
 		152FF631A59FF03823BB78819D976554 /* SKTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKTimer-dummy.m"; sourceTree = "<group>"; };
 		1549C18E8E58CD3AA96B5ACF9BEB535E /* Pods-SKTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		188458F25EA11F93352C04A6FE35BC64 /* Pods-SKTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKTimer_Example.modulemap"; sourceTree = "<group>"; };
-		1D733A610D0E698EE446AB228CF96F7C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		1D733A610D0E698EE446AB228CF96F7C /* SKTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SKTimer.swift; sourceTree = "<group>"; };
 		395ABE85198BA7A3C0100975CB0E1601 /* Pods-SKTimer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKTimer_Tests-resources.sh"; sourceTree = "<group>"; };
 		3B65AAD6BA3D9A0F6E5AA5CA8CC603FB /* Pods-SKTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -220,7 +220,7 @@
 		E03E736C65C79C5CE430C9426FCF0DAD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1D733A610D0E698EE446AB228CF96F7C /* ReplaceMe.swift */,
+				1D733A610D0E698EE446AB228CF96F7C /* SKTimer.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -415,7 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46B99B74AC8893A6D78423088A673C3D /* ReplaceMe.swift in Sources */,
+				46B99B74AC8893A6D78423088A673C3D /* SKTimer.swift in Sources */,
 				E51ADFF4736928F9A9BC8395A42901B4 /* SKTimer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
