@@ -4,7 +4,17 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 #### Changed
+
+
+
+## [0.1.2](https://github.com/KyleGoslan/SKTimer/releases/tag/0.1.2)
+Released on 2016-30-03.
+
 #### Added
+- Changed the implementation of the completion handler.
+- Added by [Kyle Goslan](https://github.com/KyleGoslan).
+
+
 
 ## [0.1.1](https://github.com/KyleGoslan/SKTimer/releases/tag/0.1.1)
 Released on 2016-29-03.
