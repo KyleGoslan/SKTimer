@@ -11,8 +11,13 @@ class Tests: XCTestCase {
         timer = SKTimer()
     }
     
-    func testExample() {
+    func testTimerDoesntAutostart() {
         XCTAssertFalse(timer.on)
     }
     
+    func testTimerStarts() {
+        timer.start(10)
+        XCTAssertTrue(timer.on)
+    }
+
 }
