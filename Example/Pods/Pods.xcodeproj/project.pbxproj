@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014F0AD6812800DEEE4FA8CE7B3562F6 /* Pods-SKTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4F8442D31391DA0644E7FA6AA071A /* Pods-SKTimer_Tests-dummy.m */; };
+		10FB58373033AAAFF730A1DDF9F2AEC5 /* Pods-SKTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 979A6B1E5937AFA12F240FD0904348CF /* Pods-SKTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		150764F3F54A4C7CA86A9126D22A3A51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		1D4FFAB17D5DDC0B7E7515A2D22F82C5 /* Pods-SKTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE52D674A151E355ADA2B7B134DF5786 /* Pods-SKTimer_Example-dummy.m */; };
+		3C2BE50BE5BD780365EAA87DC395D3BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		46B99B74AC8893A6D78423088A673C3D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D733A610D0E698EE446AB228CF96F7C /* ReplaceMe.swift */; };
+		91212F95963396C7BAD8261B548F1698 /* SKTimer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 61B41E6282EDB784898118FF42B0AC1D /* SKTimer.bundle */; };
+		BD791E4BA3F0DF7CC403E296E88EA3EA /* SKTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C60B56DE1EED751611B7678D93D328 /* SKTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E51ADFF4736928F9A9BC8395A42901B4 /* SKTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 152FF631A59FF03823BB78819D976554 /* SKTimer-dummy.m */; };
+		E9E1F31EFAE6386778C929A627F3B76C /* Pods-SKTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5795F83AE2D16C6085421E1A0E60D634 /* Pods-SKTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F607D160623964DA6B5313728BA2E296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67E8575B3EAAE06161EC71FFA61CA684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3473C8A72B2011D1363122ED9D300F6A;
+			remoteInfo = SKTimer;
+		};
+		71F7E81146EEDF9BC9EADBC93ADB2530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3473C8A72B2011D1363122ED9D300F6A;
+			remoteInfo = SKTimer;
+		};
+		873FFE4EA07CB68CD63F4B96C4A3AB0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B5012FFAA33BFEA748398080F280EE;
+			remoteInfo = "SKTimer-SKTimer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152FF631A59FF03823BB78819D976554 /* SKTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKTimer-dummy.m"; sourceTree = "<group>"; };
+		1549C18E8E58CD3AA96B5ACF9BEB535E /* Pods-SKTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		188458F25EA11F93352C04A6FE35BC64 /* Pods-SKTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKTimer_Example.modulemap"; sourceTree = "<group>"; };
+		1D733A610D0E698EE446AB228CF96F7C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		395ABE85198BA7A3C0100975CB0E1601 /* Pods-SKTimer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKTimer_Tests-resources.sh"; sourceTree = "<group>"; };
+		3B65AAD6BA3D9A0F6E5AA5CA8CC603FB /* Pods-SKTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F71E28444BD64AC2C0F0ABF38E8F5E1 /* Pods-SKTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKTimer_Tests.modulemap"; sourceTree = "<group>"; };
+		42C1304FD112FDDDDCA107A190A4F729 /* Pods-SKTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4A5E62883F2034EEF13B5D65427390E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5795F83AE2D16C6085421E1A0E60D634 /* Pods-SKTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5974748C03149D687CC877CB60CA76F6 /* SKTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA4F8442D31391DA0644E7FA6AA071A /* Pods-SKTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKTimer_Tests-dummy.m"; sourceTree = "<group>"; };
+		61B41E6282EDB784898118FF42B0AC1D /* SKTimer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKTimer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		639AE53C169A43A8999FC501F6FD88F8 /* Pods-SKTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7697292896CF0B3121420B728BDC4E4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B99DA4B7B91FE108741E8B791DCA6C7 /* Pods-SKTimer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKTimer_Example-resources.sh"; sourceTree = "<group>"; };
+		7F77D3A9AAE621871512285CB14A7517 /* Pods-SKTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FC36C1F30438E1A70E2E0407F9ADAED /* SKTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKTimer.xcconfig; sourceTree = "<group>"; };
+		89C60B56DE1EED751611B7678D93D328 /* SKTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKTimer-umbrella.h"; sourceTree = "<group>"; };
+		8BB03E6C43D777570E2306D4C2AAC31B /* Pods-SKTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9245187C57A039DBC8271553B6AD858A /* SKTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SKTimer.modulemap; sourceTree = "<group>"; };
+		979A6B1E5937AFA12F240FD0904348CF /* Pods-SKTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKTimer_Example-umbrella.h"; sourceTree = "<group>"; };
+		980DE1D70F09779D08F982E634C13959 /* Pods-SKTimer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKTimer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		99A9A31A67E3146B6F791A92EE79D96C /* Pods-SKTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC42F762A421EB80F4483836D215EC86 /* Pods-SKTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B9F8262DBE8252B6245B9E4D9E57604E /* SKTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKTimer-prefix.pch"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA7FA3106F42FEAB782416EF36224F6E /* Pods_SKTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE52D674A151E355ADA2B7B134DF5786 /* Pods-SKTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKTimer_Example-dummy.m"; sourceTree = "<group>"; };
+		E18F3EDED7A2E3764C708197B76D1957 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27444F2B28C60C2667F7FFA0B8786E2 /* Pods-SKTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F423D88D31CB85EB47CCF7765B82A0FE /* Pods_SKTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20E4C116DBAC579A81EEAD0BD628826D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150764F3F54A4C7CA86A9126D22A3A51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50729C7A526F95EE6845F10CBA82A380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F607D160623964DA6B5313728BA2E296 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C3C8BAA1EE823D24C54380AA9216279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCE93B97039B97F5990D6D5AF5B89CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2BE50BE5BD780365EAA87DC395D3BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		487B16DAD03F0500566E07044670086D /* Pods-SKTimer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4A5E62883F2034EEF13B5D65427390E4 /* Info.plist */,
+				3F71E28444BD64AC2C0F0ABF38E8F5E1 /* Pods-SKTimer_Tests.modulemap */,
+				3B65AAD6BA3D9A0F6E5AA5CA8CC603FB /* Pods-SKTimer_Tests-acknowledgements.markdown */,
+				1549C18E8E58CD3AA96B5ACF9BEB535E /* Pods-SKTimer_Tests-acknowledgements.plist */,
+				5BA4F8442D31391DA0644E7FA6AA071A /* Pods-SKTimer_Tests-dummy.m */,
+				980DE1D70F09779D08F982E634C13959 /* Pods-SKTimer_Tests-frameworks.sh */,
+				395ABE85198BA7A3C0100975CB0E1601 /* Pods-SKTimer_Tests-resources.sh */,
+				5795F83AE2D16C6085421E1A0E60D634 /* Pods-SKTimer_Tests-umbrella.h */,
+				99A9A31A67E3146B6F791A92EE79D96C /* Pods-SKTimer_Tests.debug.xcconfig */,
+				42C1304FD112FDDDDCA107A190A4F729 /* Pods-SKTimer_Tests.release.xcconfig */,
+			);
+			name = "Pods-SKTimer_Tests";
+			path = "Target Support Files/Pods-SKTimer_Tests";
+			sourceTree = "<group>";
+		};
+		48C52B64AC57A6244462387338337298 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E03E736C65C79C5CE430C9426FCF0DAD /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		6E6F3636E74D4E055D1BF098D6FB3BF1 /* Pods-SKTimer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7697292896CF0B3121420B728BDC4E4F /* Info.plist */,
+				188458F25EA11F93352C04A6FE35BC64 /* Pods-SKTimer_Example.modulemap */,
+				8BB03E6C43D777570E2306D4C2AAC31B /* Pods-SKTimer_Example-acknowledgements.markdown */,
+				7F77D3A9AAE621871512285CB14A7517 /* Pods-SKTimer_Example-acknowledgements.plist */,
+				DE52D674A151E355ADA2B7B134DF5786 /* Pods-SKTimer_Example-dummy.m */,
+				AC42F762A421EB80F4483836D215EC86 /* Pods-SKTimer_Example-frameworks.sh */,
+				7B99DA4B7B91FE108741E8B791DCA6C7 /* Pods-SKTimer_Example-resources.sh */,
+				979A6B1E5937AFA12F240FD0904348CF /* Pods-SKTimer_Example-umbrella.h */,
+				639AE53C169A43A8999FC501F6FD88F8 /* Pods-SKTimer_Example.debug.xcconfig */,
+				E27444F2B28C60C2667F7FFA0B8786E2 /* Pods-SKTimer_Example.release.xcconfig */,
+			);
+			name = "Pods-SKTimer_Example";
+			path = "Target Support Files/Pods-SKTimer_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				CEF740CB1A0611A195C5CF76BA076267 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EFAF74E4D9BA66C17842DE1A2A275E4F /* Products */,
+				A26470B8C85625B57FCBCF5A017217DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80ECC3EED174A9FF45F0DF47FC1FD284 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E18F3EDED7A2E3764C708197B76D1957 /* Info.plist */,
+				9245187C57A039DBC8271553B6AD858A /* SKTimer.modulemap */,
+				7FC36C1F30438E1A70E2E0407F9ADAED /* SKTimer.xcconfig */,
+				152FF631A59FF03823BB78819D976554 /* SKTimer-dummy.m */,
+				B9F8262DBE8252B6245B9E4D9E57604E /* SKTimer-prefix.pch */,
+				89C60B56DE1EED751611B7678D93D328 /* SKTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKTimer";
+			sourceTree = "<group>";
+		};
+		A26470B8C85625B57FCBCF5A017217DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E6F3636E74D4E055D1BF098D6FB3BF1 /* Pods-SKTimer_Example */,
+				487B16DAD03F0500566E07044670086D /* Pods-SKTimer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CEF740CB1A0611A195C5CF76BA076267 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F70345FD0964368AA4AE83640595FDD2 /* SKTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E03E736C65C79C5CE430C9426FCF0DAD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D733A610D0E698EE446AB228CF96F7C /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EFAF74E4D9BA66C17842DE1A2A275E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F423D88D31CB85EB47CCF7765B82A0FE /* Pods_SKTimer_Example.framework */,
+				CA7FA3106F42FEAB782416EF36224F6E /* Pods_SKTimer_Tests.framework */,
+				61B41E6282EDB784898118FF42B0AC1D /* SKTimer.bundle */,
+				5974748C03149D687CC877CB60CA76F6 /* SKTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70345FD0964368AA4AE83640595FDD2 /* SKTimer */ = {
+			isa = PBXGroup;
+			children = (
+				48C52B64AC57A6244462387338337298 /* Pod */,
+				80ECC3EED174A9FF45F0DF47FC1FD284 /* Support Files */,
+			);
+			name = SKTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		098A330D3CED768967983EBB400E6968 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FB58373033AAAFF730A1DDF9F2AEC5 /* Pods-SKTimer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A243292C4A576531D6AE6E51953C06B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD791E4BA3F0DF7CC403E296E88EA3EA /* SKTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F46A31CFE90E1ABC2C25046F84D89A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E1F31EFAE6386778C929A627F3B76C /* Pods-SKTimer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14B5012FFAA33BFEA748398080F280EE /* SKTimer-SKTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E9EEE9714EE3AADD78E0F057144EFD /* Build configuration list for PBXNativeTarget "SKTimer-SKTimer" */;
+			buildPhases = (
+				1F1668592E6A8781A57AB8A5FCC64CBB /* Sources */,
+				7C3C8BAA1EE823D24C54380AA9216279 /* Frameworks */,
+				66B940799FA05A0A01DB87044D8D2A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKTimer-SKTimer";
+			productName = "SKTimer-SKTimer";
+			productReference = 61B41E6282EDB784898118FF42B0AC1D /* SKTimer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2FA917B1D1CD7043EB0438A99A00D64E /* Pods-SKTimer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773BD6081F55A7197B92F486BC3A04DE /* Build configuration list for PBXNativeTarget "Pods-SKTimer_Tests" */;
+			buildPhases = (
+				1B7F31C48AF07AD2406C32B71BE91694 /* Sources */,
+				50729C7A526F95EE6845F10CBA82A380 /* Frameworks */,
+				94F46A31CFE90E1ABC2C25046F84D89A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29D431A69541060858F3EC250B3C5712 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKTimer_Tests";
+			productName = "Pods-SKTimer_Tests";
+			productReference = CA7FA3106F42FEAB782416EF36224F6E /* Pods_SKTimer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3473C8A72B2011D1363122ED9D300F6A /* SKTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD08D6D6EC47053E1F9F17C7A28DDA01 /* Build configuration list for PBXNativeTarget "SKTimer" */;
+			buildPhases = (
+				5E98C235DACDDB094B7498A9B72148AE /* Sources */,
+				20E4C116DBAC579A81EEAD0BD628826D /* Frameworks */,
+				67C45DFBB85068E0D360FE6D3460FA18 /* Resources */,
+				4A243292C4A576531D6AE6E51953C06B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6757DF810E209B259EBADAC3A18B02C1 /* PBXTargetDependency */,
+			);
+			name = SKTimer;
+			productName = SKTimer;
+			productReference = 5974748C03149D687CC877CB60CA76F6 /* SKTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DCF67159736577C215C467767EA1560 /* Pods-SKTimer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B62F8998AF2FCBF01280F8EAAA88142 /* Build configuration list for PBXNativeTarget "Pods-SKTimer_Example" */;
+			buildPhases = (
+				A5978FD0EB137520D3216A9904F5733F /* Sources */,
+				EBCE93B97039B97F5990D6D5AF5B89CB /* Frameworks */,
+				098A330D3CED768967983EBB400E6968 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3323E850CAAD36E96F9C2FC02E053536 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKTimer_Example";
+			productName = "Pods-SKTimer_Example";
+			productReference = F423D88D31CB85EB47CCF7765B82A0FE /* Pods_SKTimer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EFAF74E4D9BA66C17842DE1A2A275E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCF67159736577C215C467767EA1560 /* Pods-SKTimer_Example */,
+				2FA917B1D1CD7043EB0438A99A00D64E /* Pods-SKTimer_Tests */,
+				3473C8A72B2011D1363122ED9D300F6A /* SKTimer */,
+				14B5012FFAA33BFEA748398080F280EE /* SKTimer-SKTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66B940799FA05A0A01DB87044D8D2A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C45DFBB85068E0D360FE6D3460FA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91212F95963396C7BAD8261B548F1698 /* SKTimer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B7F31C48AF07AD2406C32B71BE91694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014F0AD6812800DEEE4FA8CE7B3562F6 /* Pods-SKTimer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1668592E6A8781A57AB8A5FCC64CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E98C235DACDDB094B7498A9B72148AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B99B74AC8893A6D78423088A673C3D /* ReplaceMe.swift in Sources */,
+				E51ADFF4736928F9A9BC8395A42901B4 /* SKTimer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5978FD0EB137520D3216A9904F5733F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4FFAB17D5DDC0B7E7515A2D22F82C5 /* Pods-SKTimer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29D431A69541060858F3EC250B3C5712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKTimer;
+			target = 3473C8A72B2011D1363122ED9D300F6A /* SKTimer */;
+			targetProxy = 67E8575B3EAAE06161EC71FFA61CA684 /* PBXContainerItemProxy */;
+		};
+		3323E850CAAD36E96F9C2FC02E053536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKTimer;
+			target = 3473C8A72B2011D1363122ED9D300F6A /* SKTimer */;
+			targetProxy = 71F7E81146EEDF9BC9EADBC93ADB2530 /* PBXContainerItemProxy */;
+		};
+		6757DF810E209B259EBADAC3A18B02C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SKTimer-SKTimer";
+			target = 14B5012FFAA33BFEA748398080F280EE /* SKTimer-SKTimer */;
+			targetProxy = 873FFE4EA07CB68CD63F4B96C4A3AB0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		080A5EAA3C48B765A703B39BAB4F9E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC36C1F30438E1A70E2E0407F9ADAED /* SKTimer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SKTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		10906413F310898C8A000985652455C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC36C1F30438E1A70E2E0407F9ADAED /* SKTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKTimer/SKTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKTimer/SKTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SKTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A98F18EFDB36B8CF69C0F0B9AC09E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A9A31A67E3146B6F791A92EE79D96C /* Pods-SKTimer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKTimer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKTimer_Tests/Pods-SKTimer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKTimer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5644EDC52396B9F62B7539CCEC913138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27444F2B28C60C2667F7FFA0B8786E2 /* Pods-SKTimer_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKTimer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKTimer_Example/Pods-SKTimer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKTimer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C721C986C7537B2742127DF3CAB7ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC36C1F30438E1A70E2E0407F9ADAED /* SKTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKTimer/SKTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKTimer/SKTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SKTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91BD3D512E9E3275F2D615FAEB165015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C1304FD112FDDDDCA107A190A4F729 /* Pods-SKTimer_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKTimer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKTimer_Tests/Pods-SKTimer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKTimer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C75D6C56C7F994B1D9E1674EEA21CAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC36C1F30438E1A70E2E0407F9ADAED /* SKTimer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SKTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F0AF00B5EF3A8DD665E1C0EBC5F92DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 639AE53C169A43A8999FC501F6FD88F8 /* Pods-SKTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKTimer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKTimer_Example/Pods-SKTimer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKTimer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B62F8998AF2FCBF01280F8EAAA88142 /* Build configuration list for PBXNativeTarget "Pods-SKTimer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AF00B5EF3A8DD665E1C0EBC5F92DA9 /* Debug */,
+				5644EDC52396B9F62B7539CCEC913138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773BD6081F55A7197B92F486BC3A04DE /* Build configuration list for PBXNativeTarget "Pods-SKTimer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A98F18EFDB36B8CF69C0F0B9AC09E45 /* Debug */,
+				91BD3D512E9E3275F2D615FAEB165015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD08D6D6EC47053E1F9F17C7A28DDA01 /* Build configuration list for PBXNativeTarget "SKTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10906413F310898C8A000985652455C6 /* Debug */,
+				7C721C986C7537B2742127DF3CAB7ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E9EEE9714EE3AADD78E0F057144EFD /* Build configuration list for PBXNativeTarget "SKTimer-SKTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080A5EAA3C48B765A703B39BAB4F9E76 /* Debug */,
+				C75D6C56C7F994B1D9E1674EEA21CAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

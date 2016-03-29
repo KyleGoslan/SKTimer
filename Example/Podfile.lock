@@ -1,0 +1,14 @@
+PODS:
+  - SKTimer (0.1.0)
+
+DEPENDENCIES:
+  - SKTimer (from `../`)
+
+EXTERNAL SOURCES:
+  SKTimer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SKTimer: b0002aa0dfeeb1a8fa952afea581fadc881d4a21
+
+COCOAPODS: 0.39.0
