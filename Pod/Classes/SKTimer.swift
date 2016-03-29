@@ -9,7 +9,9 @@
 import SpriteKit
 
 /**
- A Simple timer for SpriteKit games.
+A Simple timer for SpriteKit games.
+ 
+- important: Call the timer update method from within the scenes update method.
 */
 public class SKTimer {
     
@@ -29,7 +31,7 @@ public class SKTimer {
     public var on = false
     
     /**
-     Default init. Creates a new SKTimer object.
+    Creates a new SKTimer object.
     */
     public init() {
         
@@ -46,7 +48,9 @@ public class SKTimer {
     }
     
     /**
-    Create a timer with a time limit limit. You can get a callback when the limit is reached by implementing:
+    Create a timer with a time limit. 
+     
+    You can get a callback when the limit is reached by implementing:
      
         func update(currentTime: Double, timeUp: () -> ()?)
 
@@ -72,6 +76,9 @@ public class SKTimer {
     - Parameter timeUp (optional):   Callback when the timers limit is reached.
     */
     public func update(currentTime: Double, timeUp: () -> ()?) {
+        
+        guard on else { return }
+        
         time = (currentTime - startTime) * multiplier
         
         if let limit = limit {

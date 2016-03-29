@@ -11,7 +11,6 @@ class Tests: XCTestCase {
         timer = SKTimer()
     }
     
-
     func testExample() {
         XCTAssertFalse(timer.on)
     }

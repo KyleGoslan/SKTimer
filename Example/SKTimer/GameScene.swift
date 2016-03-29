@@ -12,7 +12,7 @@ import SKTimer
 class GameScene: SKScene {
     
     var currentTime = 0.0
-    var timer = SKTimer()
+    var timer = SKTimer(limit: 1)
     
     override func didMoveToView(view: SKView) {
         
@@ -24,13 +24,10 @@ class GameScene: SKScene {
    
     override func update(currentTime: CFTimeInterval) {
         self.currentTime = currentTime
-        
-        if timer.on {
-            print(timer.time)
-            timer.update(currentTime, timeUp: { () -> ()? in
-                print("timeup")
-            })
-        }
+    
+        timer.update(currentTime, timeUp: { () -> ()? in
+            print("timeup")
+        })
         
     }
 }
