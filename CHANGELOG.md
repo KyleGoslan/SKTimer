@@ -6,6 +6,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 #### Changed
 
 
+## [0.1.3](https://github.com/KyleGoslan/SKTimer/releases/tag/0.1.2)
+Released on 2016-30-03.
+
+#### Added
+- Added tests.
+- Added by [Kyle Goslan](https://github.com/KyleGoslan).
+
 
 ## [0.1.2](https://github.com/KyleGoslan/SKTimer/releases/tag/0.1.2)
 Released on 2016-30-03.
