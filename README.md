@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/SKTimer.svg?style=flat)](http://cocoapods.org/pods/SKTimer)
 [![Platform](https://img.shields.io/cocoapods/p/SKTimer.svg?style=flat)](http://cocoapods.org/pods/SKTimer)
 [![CocoaPods](https://img.shields.io/cocoapods/metrics/doc-percent/SKTimer.svg)]()
+[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star)]()
 
 ## Usage
 
