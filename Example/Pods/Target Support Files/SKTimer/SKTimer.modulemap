@@ -1,6 +1,0 @@
-framework module SKTimer {
-  umbrella header "SKTimer-umbrella.h"
-
-  export *
-  module * { export * }
-}
