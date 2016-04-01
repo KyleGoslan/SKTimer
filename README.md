@@ -38,7 +38,7 @@ print(timer.time)
 
 ##Example Scene
 
-Here is vary simple example scene that starts an `SKTimer` on a touch. 
+Here is very simple example scene that starts an `SKTimer` on a touch. 
 
 ```swift
 import SpriteKit
