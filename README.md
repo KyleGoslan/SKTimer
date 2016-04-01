@@ -8,7 +8,7 @@
 
 ## Requirements
 
-Designed to be uses in a `SpriteKti` project. 
+Designed to be uses in a `SpriteKit` project. 
 
 ## Usage
 
