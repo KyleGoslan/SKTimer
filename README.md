@@ -8,7 +8,7 @@
 
 ## Requirements
 
-Designed to be uses in a `SpriteKti` project. 
+Designed to be uses in a `SpriteKit` project. 
 
 ## Usage
 
@@ -36,6 +36,35 @@ You can get th current time of the timer from it `time` propert.
 print(timer.time)
 ```
 
+##Example Scene
+
+Here is vary simple example scene that starts an `SKTimer` on a touch. 
+
+```swift
+import SpriteKit
+import SKTimer
+
+class GameScene: SKScene {
+
+    var currentTime = 0.0
+    var timer = SKTimer()
+
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        timer.start(currentTime)
+    }
+
+    override func update(currentTime: CFTimeInterval) {
+        self.currentTime = currentTime
+
+        if timer.on {
+            print(timer.time)
+            timer.update(currentTime, timeUp: nil)
+        }
+    }
+}
+
+```
+
 ## Installation
 
 SKTimer is available through [CocoaPods](http://cocoapods.org). To install it, simply add th following line to your Podfile:
@@ -43,7 +72,6 @@ SKTimer is available through [CocoaPods](http://cocoapods.org). To install it, s
 ```ruby
 pod "SKTimer"
 ```
-
 
 ## Author
 
