@@ -6,20 +6,44 @@
 [![Platform](https://img.shields.io/cocoapods/p/SKTimer.svg?style=flat)](http://cocoapods.org/pods/SKTimer)
 [![CocoaPods](https://img.shields.io/cocoapods/metrics/doc-percent/SKTimer.svg)]()
 
+## Requirements
+
+Designed to be uses in a `SpriteKti` project. 
+
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Create an instacne of an `SKTimer` object 
 
-## Requirements
+```swift 
+let timer = SKTimer()
+```
+
+Call the `start(_:)` method on your new timer passing in the current time from the scene. This is the `currentTime` parameter from your scenes update method. Usually you'll want to create a property in your scene to hold this value so you'll have access to it from outside your update method.
+
+```swift 
+timer.start(currentTime)
+```
+
+In your scenes update method make sure you call the timers `update(_:completion:)` method passing in the current time. This is how the time calculates it count. 
+
+```swift
+timer.update(currentTime, timeUp: nil)
+```
+
+You can get th current time of the timer from it `time` propert.
+
+```swift
+print(timer.time)
+```
 
 ## Installation
 
-SKTimer is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+SKTimer is available through [CocoaPods](http://cocoapods.org). To install it, simply add th following line to your Podfile:
 
 ```ruby
 pod "SKTimer"
 ```
+
 
 ## Author
 

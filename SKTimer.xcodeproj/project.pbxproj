@@ -79,8 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				27D09D0C1CAC000F00E5B4EB /* SKTimer.h */,
-				27D09D0E1CAC000F00E5B4EB /* Info.plist */,
 				27D09D251CAC004600E5B4EB /* SKTimer.swift */,
+				27D09D0E1CAC000F00E5B4EB /* Info.plist */,
 			);
 			path = SKTimer;
 			sourceTree = "<group>";
