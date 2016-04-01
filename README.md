@@ -30,7 +30,7 @@ In your scenes update method make sure you call the timers `update(_:completion:
 timer.update(currentTime, timeUp: nil)
 ```
 
-You can get th current time of the timer from it `time` propert.
+You can get th current time of the timer from it `time` property.
 
 ```swift
 print(timer.time)
