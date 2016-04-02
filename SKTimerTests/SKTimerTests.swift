@@ -31,7 +31,7 @@ class SKTimerTests: XCTestCase {
         timer.limit = 5
         timer.start(0)
         XCTAssertTrue(timer.on)
-        timer.update(10, completion: nil)
+        timer.update(10, timeUp: nil)
         XCTAssertFalse(timer.on)
     }
     

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SKTimer"
-  s.version          = "0.1.6"
+  s.version          = "0.2.0"
   s.summary          = "Easy to use timer for SpriteKit games."
 
 # This description is used to generate tags and improve search results.

@@ -5,6 +5,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 #### Changed
 
+## [0.2.0](https://github.com/KyleGoslan/SKTimer/releases/tag/0.2.0)
+Released on 2016-03-04.
+
+#### Changed
+- Renamed the completion block for callback when time limit reached.
+- Added by [Kyle Goslan](https://github.com/KyleGoslan).
+
 
 ## [0.1.6](https://github.com/KyleGoslan/SKTimer/releases/tag/0.1.6)
 Released on 2016-03-04.
