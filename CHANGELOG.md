@@ -5,6 +5,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 #### Changed
 
+## [0.1.5](https://github.com/KyleGoslan/SKTimer/releases/tag/0.1.5)
+Released on 2016-2-04.
+
+#### Added
+- Updated Readme.
+- Added by [Kyle Goslan](https://github.com/KyleGoslan).
 
 ## [0.1.4](https://github.com/KyleGoslan/SKTimer/releases/tag/0.1.4)
 Released on 2016-30-03.
