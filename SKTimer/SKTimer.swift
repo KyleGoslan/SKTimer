@@ -75,7 +75,7 @@ public class SKTimer {
      - Parameter currentTime:   The current time in the from update method of the scene.
      - Parameter timeUp (optional):   Callback when the timers limit is reached.
      */
-    public func update(currentTime: Double, completion: (() -> ())?) {
+    public func update(currentTime: Double, completion: (() -> Void)?) {
         
         guard on else { return }
         
