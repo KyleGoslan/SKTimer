@@ -18,19 +18,19 @@ Create an instacne of an `SKTimer` object
 let timer = SKTimer()
 ```
 
-Call the `start(_:)` method on your new timer passing in the current time from the scene. This is the `currentTime` parameter from your scenes update method. Usually you'll want to create a property in your scene to hold this value so you'll have access to it from outside your update method.
+Call the `start(_:)` method on your new timer passing in the current time from the scene. This is the `currentTime` parameter from your scenes update method. Usually you'll want to create a property in your scene to hold this value so you'll have access to it from outside your update method:
 
 ```swift 
 timer.start(currentTime)
 ```
 
-In your scenes update method make sure you call the timers `update(_:completion:)` method passing in the current time. This is how the time calculates it count. 
+In your scenes update method make sure you call the timers `update(_:completion:)` method passing in the current time. This is how the time calculates it count:
 
 ```swift
 timer.update(currentTime, timeUp: nil)
 ```
 
-You can get th current time of the timer from it `time` property.
+You can get th current time of the timer from it `time` property:
 
 ```swift
 print(timer.time)
@@ -38,7 +38,7 @@ print(timer.time)
 
 ##Example Scene
 
-Here is very simple example scene that starts an `SKTimer` on a touch. 
+Here is very simple example scene that starts an `SKTimer` on a touch:
 
 ```swift
 import SpriteKit
@@ -63,6 +63,22 @@ class GameScene: SKScene {
     }
 }
 
+```
+
+##Time Limits
+
+You can set optional time limits for your timer and receive a callback when that limit is reached. Create a timer with a limit of 10 seconds like this:
+
+```swift
+var timer = SKTimer(limit: 10)
+```
+
+##Multiplier
+
+The default of the multiplier property is 1.0. You can increase or decrease this to speed up or slowdown the speed of the counter. E.g to create a timer that is twice as fast as real time: 
+
+```swift
+var timer = SKTimer(multiplier: 2.0)
 ```
 
 ## Installation
