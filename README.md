@@ -12,7 +12,7 @@ Designed to be uses in a `SpriteKit` project.
 
 ## Usage
 
-Create an instacne of an `SKTimer` object 
+Create an instance of an `SKTimer` object 
 
 ```swift 
 let timer = SKTimer()
@@ -24,13 +24,13 @@ Call the `start(_:)` method on your new timer passing in the current time from t
 timer.start(currentTime)
 ```
 
-In your scenes update method make sure you call the timers `update(_:completion:)` method passing in the current time. This is how the time calculates it count:
+In your scenes update method make sure you call the timers `update(_:completion:)` method passing in the current time. This is how the timer calculates its count:
 
 ```swift
 timer.update(currentTime, timeUp: nil)
 ```
 
-You can get th current time of the timer from it `time` property:
+You can get the current time of the timer from it `time` property:
 
 ```swift
 print(timer.time)
@@ -83,7 +83,7 @@ var timer = SKTimer(multiplier: 2.0)
 
 ## Installation
 
-SKTimer is available through [CocoaPods](http://cocoapods.org). To install it, simply add th following line to your Podfile:
+SKTimer is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod "SKTimer"
